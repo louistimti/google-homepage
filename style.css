@@ -1,0 +1,150 @@
+/* footer */
+
+.foot_bg {
+  border-top: 1px #e4e4e4 solid;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  line-height: 15px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  left: 0;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Container */
+
+.container {
+  height: 90vh;
+  width: 100%;
+  margin: auto;
+  padding: 1%;
+  position: relative;
+}
+
+/* Navigation */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav li {
+  padding-right: 1rem;
+}
+
+/* Middle */
+.middle {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Search Bar */
+.search-bar {
+  border-radius: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 1px rgba(0, 0, 0, 0.2) solid;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.search-bar:hover {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+}
+
+input {
+  border: none;
+  width: 500px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.search-icon {
+  margin: 0.6rem;
+}
+
+.ion-icon {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 1rem 1.4rem;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 5px;
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.foot_bg > .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.foot_bg > .nav li {
+  padding-right: 1rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
